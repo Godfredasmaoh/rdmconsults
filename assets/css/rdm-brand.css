@@ -122,6 +122,11 @@ body.theme-finances {
   color: var(--rdm-red) !important;
 }
 
+.theme-finance .tp-submenu li a.active,
+.theme-finances .tp-submenu li a.active {
+  color: var(--rdm-red) !important;
+}
+
 /* ---------- Section labels / marquees / CTA panels ---------- */
 .theme-finance .tp-section-sub,
 .theme-finances .tp-section-sub {
@@ -1233,4 +1238,165 @@ body.theme-finances {
 .theme-finance .rdm-banner-cta .tp-fi-banner-text .video a,
 .theme-finances .rdm-banner-cta .tp-fi-banner-text .video a {
   background-color: #EF3A23 !important;
+}
+
+/* ---------- Consulting philosophy (dark cards) ---------- */
+.theme-finance .tp-cn-philoshopy-ptb,
+.theme-finances .tp-cn-philoshopy-ptb {
+  background-color: var(--rdm-dark) !important;
+}
+
+.theme-finance .tp-cn-philoshopy-heading .tp-section-cn-sub,
+.theme-finances .tp-cn-philoshopy-heading .tp-section-cn-sub {
+  color: var(--rdm-yellow) !important;
+}
+
+.theme-finance .tp-cn-philoshopy-item-title,
+.theme-finances .tp-cn-philoshopy-item-title {
+  color: #fff;
+}
+
+.theme-finance .tp-cn-philoshopy-item-btn a,
+.theme-finances .tp-cn-philoshopy-item-btn a {
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-philoshopy-item-btn a::before,
+.theme-finances .tp-cn-philoshopy-item-btn a::before {
+  background-color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a::before,
+.theme-finances .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a::before {
+  background-color: var(--rdm-red);
+}
+
+.theme-finance .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a,
+.theme-finances .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a {
+  color: #fff;
+}
+
+/* ---------- Philosophy CTA + FAQ ---------- */
+.theme-finance .tp-service-philosopy-heading .tp-section-sub,
+.theme-finances .tp-service-philosopy-heading .tp-section-sub {
+  background: var(--rdm-yellow);
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-service-philosopy-faq .tp-faq-icon,
+.theme-finances .tp-service-philosopy-faq .tp-faq-icon {
+  background: rgba(239, 58, 35, 0.1);
+}
+
+.theme-finance .tp-service-philosopy-faq .tp-faq-icon::before,
+.theme-finance .tp-service-philosopy-faq .tp-faq-icon::after,
+.theme-finances .tp-service-philosopy-faq .tp-faq-icon::before,
+.theme-finances .tp-service-philosopy-faq .tp-faq-icon::after {
+  background-color: var(--rdm-red);
+}
+
+.theme-finance .tp-service-philosopy-faq .accordion-buttons:not(.collapsed),
+.theme-finances .tp-service-philosopy-faq .accordion-buttons:not(.collapsed) {
+  color: var(--rdm-red);
+}
+
+.theme-finance .tp-service-philosopy-ptb .tp-btn,
+.theme-finances .tp-service-philosopy-ptb .tp-btn {
+  background-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .tp-service-philosopy-ptb .tp-btn:hover,
+.theme-finances .tp-service-philosopy-ptb .tp-btn:hover {
+  background-color: #d6321c;
+  color: #fff;
+}
+
+.theme-finance .tp-service-philosopy-ptb .tp-btn i::after,
+.theme-finances .tp-service-philosopy-ptb .tp-btn i::after {
+  background-color: var(--rdm-yellow);
+}
+
+/* ---------- Error / 404 page ---------- */
+.theme-finance .rdm-error-ptb,
+.theme-finances .rdm-error-ptb {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(246, 186, 22, 0.18), transparent 42%),
+    radial-gradient(circle at 80% 30%, rgba(239, 58, 35, 0.14), transparent 40%),
+    #fff;
+}
+
+.theme-finance .rdm-error-ptb .tp-error-title,
+.theme-finances .rdm-error-ptb .tp-error-title {
+  color: var(--rdm-red);
+}
+
+.theme-finance .rdm-error-ptb .tp-error-title-sm,
+.theme-finances .rdm-error-ptb .tp-error-title-sm {
+  color: var(--rdm-dark);
+}
+
+.theme-finance .rdm-error-ptb .tp-error-content p,
+.theme-finances .rdm-error-ptb .tp-error-content p {
+  color: rgba(34, 47, 48, 0.72);
+}
+
+.theme-finance .rdm-error-mark,
+.theme-finances .rdm-error-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: min(320px, 70vw);
+  height: min(180px, 42vw);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  background: var(--rdm-dark);
+  box-shadow: 0 18px 40px rgba(34, 47, 48, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-finance .rdm-error-mark::before,
+.theme-finances .rdm-error-mark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(239, 58, 35, 0.35), transparent 55%),
+    linear-gradient(315deg, rgba(246, 186, 22, 0.35), transparent 50%);
+}
+
+.theme-finance .rdm-error-404,
+.theme-finances .rdm-error-404 {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(72px, 14vw, 120px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 0 2px transparent;
+  background: linear-gradient(90deg, #fff 0%, var(--rdm-yellow) 55%, #fff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.theme-finance .rdm-error-ptb .tp-btn,
+.theme-finances .rdm-error-ptb .tp-btn {
+  background-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .rdm-error-ptb .tp-btn:hover,
+.theme-finances .rdm-error-ptb .tp-btn:hover {
+  background-color: #d6321c;
+  color: #fff;
+}
+
+.theme-finance .rdm-error-ptb .tp-btn i::after,
+.theme-finances .rdm-error-ptb .tp-btn i::after {
+  background-color: var(--rdm-yellow);
 }
