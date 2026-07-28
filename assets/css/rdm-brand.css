@@ -564,6 +564,30 @@ body.theme-finances {
   fill: #F6BA16 !important;
 }
 
+.theme-finance .tp-cn-success-item .tp-btn,
+.theme-finances .tp-cn-success-item .tp-btn {
+  background-color: var(--rdm-red) !important;
+  color: #fff !important;
+  border-color: var(--rdm-red) !important;
+}
+
+.theme-finance .tp-cn-success-item .tp-btn:hover,
+.theme-finances .tp-cn-success-item .tp-btn:hover {
+  background-color: var(--rdm-yellow) !important;
+  color: var(--rdm-dark) !important;
+  border-color: var(--rdm-yellow) !important;
+}
+
+.theme-finance .tp-cn-success-item .tp-btn .btn-icon,
+.theme-finances .tp-cn-success-item .tp-btn .btn-icon {
+  background-color: #fff !important;
+}
+
+.theme-finance .tp-cn-success-item .tp-btn:hover .btn-icon,
+.theme-finances .tp-cn-success-item .tp-btn:hover .btn-icon {
+  background-color: var(--rdm-dark) !important;
+}
+
 /* Footer link hover */
 .theme-finance .tp-footer-widget-menu a:hover,
 .theme-finances .tp-footer-widget-menu a:hover,
