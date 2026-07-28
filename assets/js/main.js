@@ -8,10 +8,10 @@
 	var windowOn = $(window);
 
 
-	// PreLoader Js
-	windowOn.on('load', function () {
-		$("#loading").fadeOut(500);
-	});
+	// PreLoader removed
+	// windowOn.on('load', function () {
+	// 	$("#loading").fadeOut(500);
+	// });
 
 
 	// Common Js//

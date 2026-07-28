@@ -335,6 +335,15 @@ body.theme-finances {
   color: var(--rdm-red);
 }
 
+/* Preloader removed */
+#loading,
+.loader-mask {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
+
 .theme-finance .tp-circle,
 .theme-finances .tp-circle {
   background-color: var(--rdm-red) !important;
@@ -593,7 +602,97 @@ body.theme-finances {
 .theme-finances .tp-footer-widget-menu a:hover,
 .theme-finance .tp-footer-copyright-text a,
 .theme-finances .tp-footer-copyright-text a {
-  color: var(--rdm-red);
+  color: var(--rdm-yellow);
+}
+
+/* Footer — brand theme color */
+.theme-finance .tp-footer-3-area,
+.theme-finances .tp-footer-3-area,
+.theme-finance .tp-footer-area,
+.theme-finances .tp-footer-area {
+  background-color: var(--rdm-red) !important;
+}
+
+.theme-finance .tp-footer-3-text p,
+.theme-finances .tp-footer-3-text p,
+.theme-finance .tp-footer-text p,
+.theme-finances .tp-footer-text p,
+.theme-finance .tp-footer-widget-menu a,
+.theme-finances .tp-footer-widget-menu a,
+.theme-finance .tp-footer-contact-location,
+.theme-finances .tp-footer-contact-location,
+.theme-finance .tp-footer-contact-location a,
+.theme-finances .tp-footer-contact-location a,
+.theme-finance .tp-footer-contact-tel,
+.theme-finances .tp-footer-contact-tel,
+.theme-finance .tp-footer-3-privacy a,
+.theme-finances .tp-footer-3-privacy a,
+.theme-finance .tp-footer-copyright-text,
+.theme-finances .tp-footer-copyright-text,
+.theme-finance .tp-footer-copyright-text p,
+.theme-finances .tp-footer-copyright-text p,
+.theme-finance .tp-footer-copyright-link a,
+.theme-finances .tp-footer-copyright-link a,
+.theme-finance .tp-footer-widget-social a,
+.theme-finances .tp-footer-widget-social a {
+  color: #fff !important;
+}
+
+.theme-finance .tp-footer-widget-title,
+.theme-finances .tp-footer-widget-title {
+  color: rgba(255, 255, 255, 0.78) !important;
+}
+
+.theme-finance .tp-footer-widget-menu a:hover,
+.theme-finances .tp-footer-widget-menu a:hover,
+.theme-finance .tp-footer-contact-tel:hover,
+.theme-finances .tp-footer-contact-tel:hover,
+.theme-finance .tp-footer-3-privacy a:hover,
+.theme-finances .tp-footer-3-privacy a:hover,
+.theme-finance .tp-footer-copyright-link a:hover,
+.theme-finances .tp-footer-copyright-link a:hover,
+.theme-finance .tp-footer-copyright-text a:hover,
+.theme-finances .tp-footer-copyright-text a:hover {
+  color: var(--rdm-yellow) !important;
+}
+
+.theme-finance .tp-footer-3-input input,
+.theme-finances .tp-footer-3-input input,
+.theme-finance .tp-fa-contact-form-input input,
+.theme-finances .tp-fa-contact-form-input input {
+  color: #fff !important;
+  border-bottom-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.theme-finance .tp-footer-3-input input::placeholder,
+.theme-finances .tp-footer-3-input input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.theme-finance .tp-footer-3-input button svg path,
+.theme-finances .tp-footer-3-input button svg path {
+  stroke: #fff !important;
+}
+
+.theme-finance .tp-footer-copyright-border,
+.theme-finances .tp-footer-copyright-border {
+  border-top-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.theme-finance .tp-footer-logo .rdm-logo,
+.theme-finances .tp-footer-logo .rdm-logo {
+  color: #fff;
+}
+
+.theme-finance .tp-footer-logo .rdm-logo span,
+.theme-finances .tp-footer-logo .rdm-logo span {
+  color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-footer-3-shape,
+.theme-finances .tp-footer-3-shape {
+  opacity: 0.25;
+  filter: brightness(10);
 }
 
 /* ---------- Stories / trust strip (equal-height cards) ---------- */
