@@ -16,3 +16,4 @@ node_modules/
 # Temp scripts
 _*.py
 __pycache__/
+.vercel

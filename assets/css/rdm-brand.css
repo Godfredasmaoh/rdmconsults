@@ -432,6 +432,22 @@ body.theme-finances {
   max-width: 560px;
 }
 
+/* Value section: keep left media from towering over copy */
+.theme-finance .tp-fi-value-thumb-main,
+.theme-finances .tp-fi-value-thumb-main {
+  display: block;
+  width: 100%;
+}
+
+.theme-finance .tp-fi-value-thumb-main img,
+.theme-finances .tp-fi-value-thumb-main img {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .rdm-about-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
