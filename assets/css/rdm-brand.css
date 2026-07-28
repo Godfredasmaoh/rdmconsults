@@ -414,6 +414,11 @@ body.theme-finances {
   color: var(--rdm-yellow) !important;
 }
 
+.theme-finance .tp-breadcrumb-list,
+.theme-finances .tp-breadcrumb-list {
+  border-bottom: none !important;
+}
+
 /* Contained about breadcrumb inherits the shared blur treatment */
 .rdm-breadcrumb {
   min-height: 320px;
@@ -595,6 +600,40 @@ body.theme-finances {
 .theme-finance .tp-cn-success-item .tp-btn:hover .btn-icon,
 .theme-finances .tp-cn-success-item .tp-btn:hover .btn-icon {
   background-color: var(--rdm-dark) !important;
+}
+
+/* Equal-height success story cards */
+.theme-finance .tp-cn-success-ptb .row,
+.theme-finances .tp-cn-success-ptb .row {
+  align-items: stretch;
+}
+
+.theme-finance .tp-cn-success-ptb > .container > .row > [class*="col-"],
+.theme-finances .tp-cn-success-ptb > .container > .row > [class*="col-"] {
+  display: flex;
+}
+
+.theme-finance .tp-cn-success-item,
+.theme-finances .tp-cn-success-item,
+.theme-finance .tp-cn-success-item-2,
+.theme-finances .tp-cn-success-item-2 {
+  width: 100%;
+  min-height: 560px;
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.theme-finance .tp-cn-success-item-content,
+.theme-finances .tp-cn-success-item-content {
+  padding-bottom: 48px !important;
+  flex: 1 1 auto;
+}
+
+.theme-finance .tp-cn-success-item-2-content,
+.theme-finances .tp-cn-success-item-2-content {
+  margin-top: auto;
 }
 
 /* Footer link hover */
