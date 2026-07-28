@@ -504,6 +504,66 @@ body.theme-finances {
   background-repeat: no-repeat !important;
 }
 
+/* Success story card: blur background + white text */
+.theme-finance .tp-cn-success-item.include-bg,
+.theme-finances .tp-cn-success-item.include-bg {
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.theme-finance .tp-cn-success-item.include-bg::before,
+.theme-finances .tp-cn-success-item.include-bg::before {
+  content: "";
+  position: absolute;
+  inset: -24px;
+  z-index: 0;
+  pointer-events: none;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+  transform: scale(1.05);
+}
+
+.theme-finance .tp-cn-success-item.include-bg::after,
+.theme-finances .tp-cn-success-item.include-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: rgba(34, 47, 48, 0.38);
+}
+
+.theme-finance .tp-cn-success-item.include-bg > *,
+.theme-finances .tp-cn-success-item.include-bg > * {
+  position: relative;
+  z-index: 2;
+}
+
+.theme-finance .tp-cn-success-item-sub,
+.theme-finances .tp-cn-success-item-sub,
+.theme-finance .tp-cn-success-item-title,
+.theme-finances .tp-cn-success-item-title,
+.theme-finance .tp-cn-success-item-wrap span,
+.theme-finances .tp-cn-success-item-wrap span,
+.theme-finance .tp-cn-success-item-wrap p,
+.theme-finances .tp-cn-success-item-wrap p {
+  color: #fff !important;
+}
+
+.theme-finance .tp-cn-success-item-icon span,
+.theme-finances .tp-cn-success-item-icon span {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.theme-finance .tp-cn-success-item-icon span svg path,
+.theme-finances .tp-cn-success-item-icon span svg path {
+  fill: #F6BA16 !important;
+}
+
 /* Footer link hover */
 .theme-finance .tp-footer-widget-menu a:hover,
 .theme-finances .tp-footer-widget-menu a:hover,
