@@ -312,9 +312,22 @@ body.theme-finances {
   background-color: var(--rdm-red) !important;
 }
 
+/* Service card "Read more" — brand yellow default, red on hover */
+.theme-finance .tp-fi-service-item-btn a,
+.theme-finances .tp-fi-service-item-btn a {
+  color: var(--rdm-dark) !important;
+  background-color: var(--rdm-yellow) !important;
+  border-color: var(--rdm-yellow) !important;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
 .theme-finance .tp-fi-service-item-btn a:hover,
-.theme-finances .tp-fi-service-item-btn a:hover {
-  color: var(--rdm-red);
+.theme-finances .tp-fi-service-item-btn a:hover,
+.theme-finance .tp-fi-service-item:hover .tp-fi-service-item-btn a,
+.theme-finances .tp-fi-service-item:hover .tp-fi-service-item-btn a {
+  color: #fff !important;
+  background-color: var(--rdm-red) !important;
+  border-color: var(--rdm-red) !important;
 }
 
 .theme-finance .tp-btn-underline:hover,
@@ -1224,7 +1237,22 @@ body.theme-finances {
 
 .theme-finance .rdm-banner-cta .tp-fi-banner-text .video a,
 .theme-finances .rdm-banner-cta .tp-fi-banner-text .video a {
-  background-color: #EF3A23 !important;
+  background-color: var(--rdm-red) !important;
+}
+
+.theme-finance .rdm-banner-cta .tp-fi-banner-text .video a:hover,
+.theme-finances .rdm-banner-cta .tp-fi-banner-text .video a:hover {
+  background-color: var(--rdm-dark) !important;
+}
+
+.theme-finance .rdm-banner-cta .tp-fi-banner-text .video a path,
+.theme-finances .rdm-banner-cta .tp-fi-banner-text .video a path {
+  fill: #fff !important;
+}
+
+.theme-finance .rdm-banner-cta .tp-btn-underline:hover,
+.theme-finances .rdm-banner-cta .tp-btn-underline:hover {
+  color: var(--rdm-red) !important;
 }
 
 /* ---------- Consulting philosophy (dark cards) ---------- */
