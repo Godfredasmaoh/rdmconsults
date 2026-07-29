@@ -1473,3 +1473,239 @@ body.theme-finances {
 .theme-finances .tp-cn-industries-heading .tp-section-cn-sub {
   color: var(--rdm-red) !important;
 }
+
+/* ---------- Join-hands / CN CTA band ---------- */
+.theme-finance .tp-cn-cta-content .tp-section-title,
+.theme-finances .tp-cn-cta-content .tp-section-title {
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-cta-content p,
+.theme-finances .tp-cn-cta-content p {
+  color: rgba(34, 47, 48, 0.75);
+}
+
+.theme-finance .tp-cn-cta-content .tp-btn,
+.theme-finances .tp-cn-cta-content .tp-btn {
+  background-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .tp-cn-cta-content .tp-btn:hover,
+.theme-finances .tp-cn-cta-content .tp-btn:hover {
+  background-color: #d6321c;
+  color: #fff;
+}
+
+.theme-finance .tp-cn-cta-content .tp-btn i::after,
+.theme-finances .tp-cn-cta-content .tp-btn i::after {
+  background-color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a {
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a span,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a span {
+  background-color: var(--rdm-yellow);
+  border-color: var(--rdm-yellow);
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a span svg path,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a span svg path {
+  fill: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a:hover,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a:hover {
+  color: var(--rdm-red);
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a:hover span,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a:hover span {
+  background-color: var(--rdm-red);
+  border-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .tp-cn-cta-content .tp-fi-hero-contact a:hover span svg path,
+.theme-finances .tp-cn-cta-content .tp-fi-hero-contact a:hover span svg path {
+  fill: #fff;
+}
+
+/* ---------- Accra office card (contact) ---------- */
+.rdm-office-ptb .tp-contact-city-heading {
+  margin-bottom: 40px;
+}
+
+.rdm-office-card {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid rgba(34, 47, 48, 0.08);
+  box-shadow: 0 18px 40px rgba(34, 47, 48, 0.06);
+}
+
+.rdm-office-card__media {
+  min-height: 420px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rdm-office-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.rdm-office-card__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(239, 58, 35, 0.18), rgba(246, 186, 22, 0.12));
+  pointer-events: none;
+}
+
+.rdm-office-card__body {
+  padding: 48px 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    linear-gradient(180deg, rgba(246, 186, 22, 0.08), transparent 40%),
+    #fff;
+}
+
+.rdm-office-card__badge {
+  display: inline-flex;
+  align-self: flex-start;
+  margin-bottom: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: var(--rdm-yellow);
+  color: var(--rdm-dark);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.rdm-office-card__title {
+  margin: 0 0 12px;
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: var(--rdm-dark);
+}
+
+.rdm-office-card__text {
+  margin: 0 0 28px;
+  color: rgba(34, 47, 48, 0.72);
+  max-width: 34ch;
+}
+
+.rdm-office-card__list {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.rdm-office-card__list li {
+  display: grid;
+  gap: 2px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(34, 47, 48, 0.08);
+}
+
+.rdm-office-card__list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rdm-office-card__list span {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(34, 47, 48, 0.55);
+}
+
+.rdm-office-card__list strong,
+.rdm-office-card__list strong a {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--rdm-dark);
+  text-decoration: none;
+}
+
+.rdm-office-card__list strong a:hover {
+  color: var(--rdm-red);
+}
+
+.rdm-office-card .tp-btn {
+  align-self: flex-start;
+  background-color: var(--rdm-red);
+  color: #fff;
+}
+
+.rdm-office-card .tp-btn:hover {
+  background-color: #d6321c;
+  color: #fff;
+}
+
+.rdm-office-card .tp-btn i::after {
+  background-color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-contact-map-icon span,
+.theme-finances .tp-contact-map-icon span {
+  background: var(--rdm-yellow);
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  display: inline-grid;
+  place-content: center;
+  box-shadow: 0 12px 28px rgba(34, 47, 48, 0.18);
+}
+
+.theme-finance .tp-contact-map-icon span svg path,
+.theme-finances .tp-contact-map-icon span svg path {
+  fill: var(--rdm-dark);
+}
+
+.theme-finance .tp-contact-map-icon a:hover span,
+.theme-finances .tp-contact-map-icon a:hover span {
+  background: var(--rdm-red);
+}
+
+.theme-finance .tp-contact-map-icon a:hover span svg path,
+.theme-finances .tp-contact-map-icon a:hover span svg path {
+  fill: #fff;
+}
+
+@media (max-width: 991px) {
+  .rdm-office-card {
+    grid-template-columns: 1fr;
+  }
+
+  .rdm-office-card__media {
+    min-height: 280px;
+  }
+
+  .rdm-office-card__body {
+    padding: 36px 28px;
+  }
+
+  .rdm-office-card__title {
+    font-size: 28px;
+  }
+}
