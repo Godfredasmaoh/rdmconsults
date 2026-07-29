@@ -1400,3 +1400,76 @@ body.theme-finances {
 .theme-finances .rdm-error-ptb .tp-btn i::after {
   background-color: var(--rdm-yellow);
 }
+
+/* ---------- Contact page ---------- */
+.theme-finance .tp-contact-ptb .tp-contact-info-icon span,
+.theme-finances .tp-contact-ptb .tp-contact-info-icon span {
+  background-color: var(--rdm-yellow);
+  border-color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-info-icon svg path[fill="#222F30"],
+.theme-finances .tp-contact-ptb .tp-contact-info-icon svg path[fill="#222F30"] {
+  fill: var(--rdm-dark) !important;
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-info-content a:hover,
+.theme-finances .tp-contact-ptb .tp-contact-info-content a:hover {
+  color: var(--rdm-red) !important;
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-input input:focus,
+.theme-finance .tp-contact-ptb .tp-contact-input textarea:focus,
+.theme-finances .tp-contact-ptb .tp-contact-input input:focus,
+.theme-finances .tp-contact-ptb .tp-contact-input textarea:focus {
+  border-color: var(--rdm-red) !important;
+  outline: none;
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-input-btn .tp-btn,
+.theme-finances .tp-contact-ptb .tp-contact-input-btn .tp-btn {
+  background-color: var(--rdm-red);
+  color: #fff;
+  border: none;
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-input-btn .tp-btn:hover,
+.theme-finances .tp-contact-ptb .tp-contact-input-btn .tp-btn:hover {
+  background-color: #d6321c;
+  color: #fff;
+}
+
+.theme-finance .tp-contact-ptb .tp-contact-input-btn .tp-btn i::after,
+.theme-finances .tp-contact-ptb .tp-contact-input-btn .tp-btn i::after {
+  background-color: var(--rdm-yellow);
+}
+
+.theme-finance .tp-contact-map-icon span,
+.theme-finances .tp-contact-map-icon span {
+  background-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .tp-contact-city-item-content a:hover,
+.theme-finances .tp-contact-city-item-content a:hover {
+  color: var(--rdm-red) !important;
+}
+
+/* ---------- Solutions listing chips ---------- */
+.theme-finance .tp-cn-industries-btns a,
+.theme-finances .tp-cn-industries-btns a {
+  border-color: rgba(239, 58, 35, 0.2);
+  color: var(--rdm-dark);
+}
+
+.theme-finance .tp-cn-industries-btns a:hover,
+.theme-finances .tp-cn-industries-btns a:hover {
+  background-color: var(--rdm-red);
+  border-color: var(--rdm-red);
+  color: #fff;
+}
+
+.theme-finance .tp-cn-industries-heading .tp-section-cn-sub,
+.theme-finances .tp-cn-industries-heading .tp-section-cn-sub {
+  color: var(--rdm-red) !important;
+}
