@@ -1259,63 +1259,56 @@ body.theme-finances {
   color: var(--rdm-red) !important;
 }
 
-/* ---------- Consulting philosophy (dark cards) ---------- */
+/* ---------- Consulting philosophy ---------- */
+/* Brand yellow section background only — cards/icons stay clean */
 .theme-finance .tp-cn-philoshopy-ptb,
 .theme-finances .tp-cn-philoshopy-ptb {
-  background-color: var(--rdm-dark) !important;
+  background-color: var(--rdm-yellow) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-heading .tp-section-cn-sub,
 .theme-finances .tp-cn-philoshopy-heading .tp-section-cn-sub {
-  color: var(--rdm-yellow) !important;
+  color: var(--rdm-red) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-heading .tp-section-title,
 .theme-finances .tp-cn-philoshopy-heading .tp-section-title {
-  color: #fff !important;
+  color: var(--rdm-dark) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-item-title,
 .theme-finances .tp-cn-philoshopy-item-title {
-  color: #fff;
+  color: var(--rdm-dark) !important;
+}
+
+.theme-finance .tp-cn-philoshopy-item-text p,
+.theme-finances .tp-cn-philoshopy-item-text p {
+  color: rgba(34, 47, 48, 0.78) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-item-content::before,
 .theme-finances .tp-cn-philoshopy-item-content::before {
-  border-color: rgba(246, 186, 22, 0.22) !important;
-  background: linear-gradient(
-    252deg,
-    rgba(239, 58, 35, 0.14) -14.19%,
-    rgba(255, 255, 255, 0.04) 100%
-  ) !important;
+  border-color: rgba(34, 47, 48, 0.1) !important;
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(10px);
 }
 
-.theme-finance .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-content::before,
-.theme-finances .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-content::before {
-  border-color: rgba(246, 186, 22, 0.45) !important;
-  background: linear-gradient(
-    252deg,
-    rgba(239, 58, 35, 0.22) -14.19%,
-    rgba(246, 186, 22, 0.08) 100%
-  ) !important;
-}
-
-/* Red CTA circles (replace old white + teal consulting border) */
+/* Keep circle buttons neutral (no brand gradient / red wash) */
 .theme-finance .tp-cn-philoshopy-item-btn a,
 .theme-finances .tp-cn-philoshopy-item-btn a {
-  color: #fff !important;
+  color: var(--rdm-dark) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-item-btn a::before,
 .theme-finances .tp-cn-philoshopy-item-btn a::before {
-  background-color: var(--rdm-red) !important;
-  border-color: var(--rdm-red) !important;
+  background-color: #fff !important;
+  border-color: rgba(34, 47, 48, 0.12) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a::before,
 .theme-finances .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a::before {
-  background-color: var(--rdm-yellow) !important;
-  border-color: var(--rdm-yellow) !important;
+  background-color: #fff !important;
+  border-color: rgba(34, 47, 48, 0.18) !important;
 }
 
 .theme-finance .tp-cn-philoshopy-item:hover .tp-cn-philoshopy-item-btn a,
