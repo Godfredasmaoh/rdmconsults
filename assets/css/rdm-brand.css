@@ -1316,6 +1316,22 @@ body.theme-finances {
   color: var(--rdm-dark) !important;
 }
 
+/* Hide hamburger on desktop — full nav is available from xl up */
+@media (min-width: 1200px) {
+  .theme-finance .tp-header-bar.tp-offcanvas-open-btn,
+  .theme-finances .tp-header-bar.tp-offcanvas-open-btn {
+    display: none !important;
+  }
+}
+
+/* Counter suffix/prefix symbols (+, $, %, >) — brand color only */
+.theme-finance .tp-cn-counter-number .tp-cn-counter-suffix,
+.theme-finance .tp-cn-counter-number .tp-cn-counter-prefix,
+.theme-finances .tp-cn-counter-number .tp-cn-counter-suffix,
+.theme-finances .tp-cn-counter-number .tp-cn-counter-prefix {
+  color: var(--rdm-red) !important;
+}
+
 /* ---------- Philosophy CTA + FAQ ---------- */
 .theme-finance .tp-service-philosopy-heading .tp-section-sub,
 .theme-finances .tp-service-philosopy-heading .tp-section-sub {
